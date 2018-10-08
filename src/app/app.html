@@ -1,0 +1,13 @@
+<main>
+    <h1 class="title">Hello from Angular !</h1>
+    <h2>
+        {{app.calctime}}
+    </h2>
+    <!-- Images (and assets) are parsed and loaded from within the public directory -->
+    <img src="/img/logo.png">
+    <button ng-click="app.fetchWeather">PRESS</button>
+    <react-directive-wrapper data="app.weatherService"></react-directive-wrapper>
+  </main>
+  <footer>
+    <!-- <a ng-href="{{app.url}}">Webpack Angular Starter</a> -->
+  </footer>
